@@ -1,3 +1,3 @@
 # FastAPI Sample
 
-Run the server using: `uvicorn main:app --reload`
+Run the server using: `uvicorn app.main:app --reload`
