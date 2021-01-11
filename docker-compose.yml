@@ -6,5 +6,7 @@ services:
     container_name: fastapi_app
     network_mode: "bridge"
     restart: always
+    volumes:
+      - "./app.db:/app/app.db"
     ports:
       - 8000:8000
