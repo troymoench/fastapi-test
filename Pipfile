@@ -12,6 +12,6 @@ requests = "*"
 
 [packages]
 fastapi = "*"
-uvicorn = "*"
+uvicorn = {extras = ["standard"],version = "*"}
 sqlalchemy = "*"
 gunicorn = "*"
